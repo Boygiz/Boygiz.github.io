@@ -5,6 +5,14 @@ selecteur(s) {
 */
 body{
 background-color: blue;
+color: white;
+}
+
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
     max-width: 100%;
