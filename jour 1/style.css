@@ -1,0 +1,59 @@
+/*
+selecteur(s) {
+    prpriété : valeur;
+}
+*/
+body {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 60px;
+    margin: 50px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 35px;
+    margin: 35px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+    margin: 150px;
+    font-size: 30px;
+
+}
+
+body {
+    margin: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: 288px;
+    gap: 20px;
+}
+
+.s {
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.m {
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+}
+
+.l {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+img {}
