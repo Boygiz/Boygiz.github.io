@@ -3,17 +3,20 @@ selecteur(s) {
     prpriété : valeur;
 }
 */
-body{
-background-color: blue;
-color: white;
+body {
+    background-color: blue;
+    color: white;
+    text-align: center;
 }
 
-h1{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }

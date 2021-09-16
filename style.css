@@ -6,11 +6,11 @@ selecteur(s) {
 body {
     background-color: blue;
     color: white;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
     font-size: 60px;
     margin: 50px;
 }
@@ -18,7 +18,11 @@ h1 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-text-align: left;
     margin: 150px;
     font-size: 30px;
+}
 
+img {
+    max-width: 100%;
+    max
+}
