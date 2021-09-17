@@ -4,6 +4,7 @@ selecteur(s) {
 }
 */
 
+
 @font-face {
     font-family: "Millimetre-Bold";
     src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
@@ -19,6 +20,7 @@ body {
     background-color: blue;
     color: white;
     text-align: center;
+    object-fit: cover;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 {
 
 h3 {
     font-family: "Millimetre-Regular";    }
-    
+
 
 p {
     font-family: "Millimetre-Regular";
@@ -40,3 +42,5 @@ p {
 img {
     max-width: 100%;
 }
+
+
