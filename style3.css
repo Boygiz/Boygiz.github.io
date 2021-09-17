@@ -9,12 +9,20 @@
 body {
     background-color: blue;
     color: white;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
 }
 h1 {
     font-family: "Millimetre-Bold";
+    text-align: right;
+    font-size: 100px;
 }
 
 img {
     max-width: 100%;
-}
+        display: block;
+        max-width: 90%;
+        margin: 20px;
+        border: 10px solid;
+        border: white
+    }
