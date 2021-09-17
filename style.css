@@ -19,28 +19,35 @@ selecteur(s) {
 body {
     background-color: blue;
     color: white;
-    text-align: center;
-    object-fit: cover;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 5px;
 }
 
 h1 {
     font-size: 150px;
-    margin: 50px;
+    text-align: left;
+    margin: 35px;
     font-family: "Millimetre-Bold";
+    grid-column: 1/4;
 }
 
 h3 {
-    font-family: "Millimetre-Regular";    }
+    font-family: "Millimetre-Regular";
+}
 
 
 p {
     font-family: "Millimetre-Regular";
-    margin: 150px;
+    margin: 50px;
     font-size: 21px;
+    grid-column: 1/2;
 }
 
 img {
-    max-width: 100%;
+    display: block;
+    max-width: 90%;
+    margin: 20px;
+    border: 10px solid;
+    border: white
 }
-
-
