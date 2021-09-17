@@ -3,6 +3,18 @@ selecteur(s) {
     prpriété : valeur;
 }
 */
+
+@font-face {
+    font-family: "Millimetre-Bold";
+    src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
+    font-family: "Solide";
+    src: url("FONT/Solide_Mirage-Mono_web.woff2") format("woff2");
+    font-family: "Millimetre-Regular";
+    src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
+
+}
+
+
 body {
     background-color: blue;
     color: white;
@@ -10,14 +22,13 @@ body {
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 60px;
+    font-size: 150px;
     margin: 50px;
+    font-family: "Millimetre-Bold";
 }
 
-
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Millimetre-Regular";
     margin: 150px;
     font-size: 21px;
 }

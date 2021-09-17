@@ -1,10 +1,18 @@
+@font-face {
+    font-family: "Millimetre-Bold";
+    src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
+    font-family: "Millimetre-Regular";
+    src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
+
+}
+
 body {
     background-color: blue;
     color: white;
     text-align: center;
 }
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Millimetre-Bold";
 }
 
 img {

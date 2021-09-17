@@ -3,20 +3,31 @@ selecteur(s) {
     prpriété : valeur;
 }
 */
-body {
-background-color: blue;
-    color: white;
-    text-align: center;
+
+@font-face {
+    font-family: "Millimetre-Bold";
+    src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
+    font-family: "Millimetre-Regular";
+    src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
 }
 
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    body {
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
 
-h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    h1 {
+        font-family: "Millimetre-Bold";
+    }
 
-img {
-    max-width: 100%;
-}
+    h3 {
+        font-family: "Millimetre-Regular";    }
+
+    img{
+        max-width: 50%;
+    }
+
+    img{
+        max-width: 50%;
+    }
