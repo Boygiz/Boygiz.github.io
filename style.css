@@ -1,6 +1,6 @@
 /*
 selecteur(s) {
-    prpriété : valeur;
+    propriété : valeur;
 }
 */
 
@@ -16,8 +16,8 @@ selecteur(s) {
         color: white;
         margin: 35px;
         display: grid;
-        grid-template-columns: 350px 350px 350px 350px;
-        gap: 1px;
+        grid-template-columns: 20% 40% 40%;
+        gap: 10px;
     }
 
 }
@@ -26,8 +26,6 @@ selecteur(s) {
 @font-face {
     font-family: "Millimetre-Bold";
     src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
-    font-family: "Solide";
-    src: url("FONT/Solide_Mirage-Mono_web.woff2") format("woff2");
     font-family: "Millimetre-Regular";
     src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
 
@@ -39,26 +37,25 @@ body {
     color: white;
     margin: 35px;
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
-    gap: 1px;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 10% 15% 15% 15%;
+    gap: 10px;
 }
 
 h1 {
     font-size: 150px;
     text-align: left;
     font-family: "Millimetre-Bold";
-    grid-column: 1/5;
+    grid-column: 1/4;
+    margin-bottom: 100%;
 }
 
-h3 {
-    font-family: "Millimetre-Regular";
-}
 
 
 p {
     font-family: "Millimetre-Regular";
-    margin: 50px;
-    font-size: 21px;
+    margin: 20px;
+    font-size: 18px;
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -67,14 +64,19 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    grid-column: 2/4;
 }
 
 .index img {
+    display: block;
+    max-width: 100%;
+    height: auto;
     margin: 20px;
     border: 10px solid;
     border: white;
 }
 
-.description {
+.text {
     grid-column: 3/5;
+    font-size: 30px;
 }
