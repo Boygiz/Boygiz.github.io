@@ -15,15 +15,26 @@ body{
 
     background-color: blue;
     color: white;
-    font-size: 70px;
-    margin-top: 10px;
-    font-family: "Millimetre-Bold";
 
 }
 
+h1{
+    font-size: 70px;
+    margin-top: 40px;
+    font-family: "Millimetre-Bold";
+}
+
 h2{
+    font-family: "Millimetre-Bold";
     font-size: 40px;
     text-align: right;
     color: white;
+}
+
+p{
+    color: white;
+    font-size: 23px;
+    font-family: "Millimetre-Regular";
+
 }
 
