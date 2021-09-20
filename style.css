@@ -20,7 +20,10 @@ selecteur(s) {
     color: currentColor;
 }
 
-body {
+body{
+
+  /* background: url("waves1.jpg"); 
+    color: white; */
 
     background-color: blue;
     color: white;
@@ -54,6 +57,7 @@ h2  {
     text-align: right;
     text-decoration: none;
     color: white;
+    margin-top: 90px;
 }
 
 p {
@@ -70,7 +74,7 @@ img {
 
 
 .text {
-    grid-column: 1/3;
+    grid-column: 3/4;
 }
 
 /* .voiture img {
@@ -80,3 +84,6 @@ img {
     grid-column: 2/4;
 } */
 
+.whotext{
+    grid-column: 1/3;
+}
