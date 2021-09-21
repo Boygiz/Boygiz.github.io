@@ -13,30 +13,31 @@ selecteur(s) {
 
 
 .header-title a {
-    font-size: clamp(24px,5vw,96px);
+    font-size: clamp(24px, 5vw, 96px);
     text-align: left;
     font-family: "Millimetre-Bold";
     text-decoration: none;
     color: currentColor;
 }
 
-body{
+body {
 
-  /* background: url("waves1.jpg"); 
+    /* background: url("waves1.jpg"); 
     color: white; */
 
     background-color: blue;
     color: white;
-  
+
 }
 
 @media (min-width:450px) {
     body {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         gap: 8px;
     }
 }
+
 @media (min-width:650px) {
     body {
         grid-template-columns: 1fr 1fr 1fr;
@@ -51,7 +52,7 @@ h1 {
     text-align: left;
 }
 
-h2  {
+h2 {
     font-family: "Millimetre-Bold";
     font-size: 30px;
     text-align: right;
@@ -61,7 +62,7 @@ h2  {
 }
 
 p {
-        font-size: 23px;
+    font-size: 23px;
     font-family: "Millimetre-Regular";
 
 }
@@ -84,6 +85,6 @@ img {
     grid-column: 2/4;
 } */
 
-.whotext{
+.whotext {
     grid-column: 1/3;
 }
