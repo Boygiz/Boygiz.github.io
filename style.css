@@ -6,9 +6,15 @@ selecteur(s) {
 
 @font-face {
     font-family: "Millimetre-Bold";
-    src: url("FONT/Millimetre-Bold_web.woff2") format("woff2");
+    src: url("FONT/Millimetre-Bold_web.woff2") format("woff2"),
+    url("FONT/Millimetre-Bold_web.woff") format("woff");
+}
+
+
+@font-face {
     font-family: "Millimetre-Regular";
-    src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
+    src: url("FONT/Millimetre-Regular_web.woff2") format("woff2"),
+    url("FONT/Millimetre-Regular_web.woff") format("woff");
 }
 
 a,
@@ -26,14 +32,16 @@ a:focus {
 
 body {
 
-    /* background: url("waves1.jpg"); 
-    color: white; */
-
-    background-color: blue;
+background-color:rgb(228, 48, 48);
     color: white;
 
-
+   
 }
+
+/*.index{
+    background: url("waves1.jpg"); 
+    color: white;
+}*/
 
 @media (min-width:450px) {
     body {
@@ -108,7 +116,7 @@ img {
 .whotext {
     grid-column: 1/2;
     background-color: white;
-    color: blue;
+    color:rgb(228, 48, 48);
     padding: 30px;
     border-radius: 15px;
     margin-left: 30px;
@@ -172,10 +180,16 @@ h4 {
 }
 
 h5 {
-    font-family: "Millimetre-Bold";
+    font-family: "Millimetre-Regular";
     font-size: 20px;
     text-align: left;
     text-decoration: none;
     color: white;
     grid-column: 3/4;
+    background-color: white;
+    color:rgb(228, 48, 48);
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 30px;
 }
+
