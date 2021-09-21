@@ -23,7 +23,7 @@ a:focus {
 }
 
 .header-title a {
-    font-size: clamp(24px, 5vw, 96px);
+    font-size: clamp(24px, 50px, 96px);
     text-align: left;
     font-family: "Millimetre-Bold";
     text-decoration: none;
@@ -45,10 +45,10 @@ background-color:rgb(228, 48, 48);
 
 @media (min-width:450px) {
     body {
+        
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 8px;
-
     }
 }
 
@@ -57,7 +57,6 @@ background-color:rgb(228, 48, 48);
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 
 h1 {
     font-size: 60px;
@@ -113,7 +112,7 @@ img {
     grid-column: 2/4;
 } */
 
-.whotext {
+.who text {
     grid-column: 1/2;
     background-color: white;
     color:rgb(228, 48, 48);
