@@ -11,6 +11,10 @@ selecteur(s) {
     src: url("FONT/Millimetre-Regular_web.woff2") format("woff2");
 }
 
+a,
+a:focus {
+    text-decoration: none;
+}
 
 .header-title a {
     font-size: clamp(24px, 5vw, 96px);
@@ -61,18 +65,22 @@ h2 {
     text-align: right;
     text-decoration: none;
     color: white;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 p {
     font-size: 23px;
     font-family: "Millimetre-Regular";
+    padding: 30px;
+
+    /*
     background-color: white;
     color: blue;
     padding: 30px;
     border-radius: 15px;
     margin-left: 0px;
     margin-top: 0%;
+*/
 
 }
 
@@ -155,10 +163,19 @@ a:hover{
     transform: scale(1.1);
 }
 
-h4{
+h4 {
     font-family: "Millimetre-Bold";
     font-size: 20px;
     text-align: right;
     text-decoration: none;
     color: white;
+}
+
+h5 {
+    font-family: "Millimetre-Bold";
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    grid-column: 3/4;
 }
