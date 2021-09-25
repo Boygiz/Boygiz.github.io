@@ -7,14 +7,14 @@ selecteur(s) {
 @font-face {
     font-family: "Millimetre-Bold";
     src: url("FONT/Millimetre-Bold_web.woff2") format("woff2"),
-    url("FONT/Millimetre-Bold_web.woff") format("woff");
+        url("FONT/Millimetre-Bold_web.woff") format("woff");
 }
 
 
 @font-face {
     font-family: "Millimetre-Regular";
     src: url("FONT/Millimetre-Regular_web.woff2") format("woff2"),
-    url("FONT/Millimetre-Regular_web.woff") format("woff");
+        url("FONT/Millimetre-Regular_web.woff") format("woff");
 }
 
 a,
@@ -32,10 +32,10 @@ a:focus {
 
 body {
 
-background-color:rgb(228, 48, 48);
+    background-color: rgb(228, 48, 48);
     color: white;
 
-   
+
 }
 
 /*.index{
@@ -45,7 +45,7 @@ background-color:rgb(228, 48, 48);
 
 @media (min-width:450px) {
     body {
-        
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 8px;
@@ -115,10 +115,10 @@ img {
 .whotext {
     grid-column: 1/2;
     background-color: white;
-    color:rgb(228, 48, 48);
+    color: rgb(228, 48, 48);
     padding: 30px;
     border-radius: 15px;
-    
+
 }
 
 
@@ -186,8 +186,7 @@ h5 {
     text-decoration: none;
     color: white;
     background-color: white;
-    color:rgb(228, 48, 48);
+    color: rgb(228, 48, 48);
     padding: 30px;
     border-radius: 15px;
 }
-
